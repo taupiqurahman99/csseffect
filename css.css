@@ -44,6 +44,7 @@ body.on .bulb
 {
     content: '';
     position: absolute;
+    top: -50px;
     left: 22.5px;
     width: 35px;
     height: 80px;
