@@ -31,7 +31,7 @@ body.on{
 body.on .bulb
 {
     background: #fff;
-    box-shadow: 0 0 50px #fff;
+    box-shadow: 0 0 50px #fff,
     0 0 100px #fff,
     0 0 150px #fff,
     0 0 200px #fff,
@@ -45,7 +45,7 @@ body.on .bulb
     content: '';
     position: absolute;
     top: -50px;
-    left: 22.5px;
+    left:22.5px;
     width: 35px;
     height: 80px;
     background: #444;
@@ -99,7 +99,7 @@ body.on .bulb span:nth-child(1)
     display: block;
     width: 30px;
     height: 30px;
-    background:transparent;
+    background: transparent;
     transform: rotate(17deg);
     border-bottom-left-radius: 40px;
     box-shadow: -20px 20px 0 10px #444;
