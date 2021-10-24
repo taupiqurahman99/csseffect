@@ -57,7 +57,7 @@ body.on .bulb
 
 body.on .bulb::before
 {
-    background: #fff;
+    background: rgb(5, 232, 248);
 }
 body.on .bulb::after
 {
@@ -68,7 +68,7 @@ body.on .bulb::after
     transform: translate(-50%,-50%);
     width: 120px;
     height: 120px;
-    background: #fff;
+    background: rgb(5, 232, 248);
     border-radius: 50%;
     filter: blur(40px);
 }
@@ -90,7 +90,7 @@ body.on .bulb::after
 
 body.on .bulb span:nth-child(1)
 {
-    box-shadow: 20px 20px 0 10px #fff;
+    box-shadow: 20px 20px 0 10px rgb(5, 232, 248);
 }
 .bulb span:nth-child(2)
 {
@@ -109,7 +109,7 @@ body.on .bulb span:nth-child(1)
 
 body.on .bulb span:nth-child(2)
 {
-    box-shadow: -20px 20px 0 10px #fff;
+    box-shadow: -20px 20px 0 10px rgb(5, 232, 248);
 }
 
 .wire {
